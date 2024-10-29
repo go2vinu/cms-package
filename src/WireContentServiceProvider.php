@@ -17,7 +17,6 @@ class WireContentServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('cms-package')
-            ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_migration_table_name_table')
             ->hasCommand(WireContentCommand::class);
