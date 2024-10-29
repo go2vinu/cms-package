@@ -4,7 +4,6 @@ namespace WireContent;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use WireContent\Commands\InstallCommand;
 
 class WireContentServiceProvider extends PackageServiceProvider
 {
